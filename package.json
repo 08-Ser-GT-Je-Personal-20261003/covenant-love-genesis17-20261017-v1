@@ -1,0 +1,1 @@
+{"name":"covenant-love-genesis17-20261017-v1","version":"1.0.0","private":true,"scripts":{"build":"python scripts/build.py","check":"python scripts/check.py"}}

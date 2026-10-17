@@ -1,0 +1,9 @@
+.deploy/
+node_modules/
+__pycache__/
+qa/
+*.log
+.surgepass
+.env*
+sources/*.html
+sources/index.json

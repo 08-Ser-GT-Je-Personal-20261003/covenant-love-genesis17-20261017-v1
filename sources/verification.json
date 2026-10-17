@@ -1,0 +1,51 @@
+[
+  {
+    "label": "使徒信经",
+    "url": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+    "sha256": "8f02e99c331d4f18cb9cf81bf15a347c00a65e00621be499cc602dcb6e01b27f",
+    "characters": 172,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "尼西亚信经",
+    "url": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+    "sha256": "9a91fa6e92cde538c5e2d9caf386739798aed0e7db988d951ee023759a73d864",
+    "characters": 329,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "亚他那修信经",
+    "url": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+    "sha256": "30238d01cd0ada48a37b0ff238378ff3fd291aa26451f2bd189060d53f39b727",
+    "characters": 1084,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "海德堡要理问答 主日27",
+    "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+    "sha256": "c8c59d35a74b6a1705ef3635e5c2c60d4fc4cdaadfa3f5e819752cae4f1ab8fd",
+    "characters": 341,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "比利时信条 第34条",
+    "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/34",
+    "sha256": "fecf72d9155be5615c52a7f6f5dcd96f21ac361c137ae9f009e8a6b9f217acfa",
+    "characters": 165,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "多特信经 第一项第5条",
+    "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/5",
+    "sha256": "c08e274fc27f26d4cd06df99a59f50fb5255fe8b44791ca504463b70011aafec",
+    "characters": 131,
+    "retrieved": "2026-10-17"
+  },
+  {
+    "label": "多特信经 第一项第17条",
+    "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/17",
+    "sha256": "132fb49c4319f012e083c40530298fef233528a6b1ea66210dc8155dd7b8226f",
+    "characters": 99,
+    "retrieved": "2026-10-17"
+  }
+]
