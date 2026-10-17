@@ -6,8 +6,10 @@
 - 所有屏宽：页面 scrollWidth 等于 viewport width，未发现容器外横向溢出；宽表格只在表格容器中滚动。
 - 各屏宽检查：目录开关、复习卡揭晓、讨论展开、配色切换、讲章模式，以及三份信经的逐段遮盖和揭示。
 - 已目视检查桌面及手机首屏；未发现文字重叠。15章节及原文全部由静态 HTML 输出，停用 JavaScript 也能阅读正文。
+- 两个公开站点已通过真实 HTTP 请求：主页、CSS、JavaScript及三份信经页面共12个文件均与本地发布版一致（允许 Git 换行转换）。
+- GitHub Pages 与 Surge 两个 Actions 工作流均已成功执行；Surge持续发布 Secrets已配置。
 - 浏览器系统语音取决于终端语音服务，自动化未验证实际音频输出。未将其描述为专业录音。
 - 地图和封面是原创 SVG 示意，地图不作精确历史测绘或显现地点证明。
 - 自动化检查不替代所有设备上的人工检查；尊重系统减少动态效果偏好。
 
-验证脚本：`python scripts/check.py` 与 `node scripts/verify-browser.mjs`。
+验证脚本：`python scripts/check.py`、`node scripts/verify-browser.mjs`、`python scripts/check-public.py`。
