@@ -47,5 +47,12 @@
     "sha256": "132fb49c4319f012e083c40530298fef233528a6b1ea66210dc8155dd7b8226f",
     "characters": 99,
     "retrieved": "2026-10-17"
+  },
+  {
+    "label": "多特信经 第五项第14条",
+    "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/14",
+    "sha256": "6fbc7d835f418031051fb137dfed0fdc02cca3b69cc5c9a0190613f3314cdfb0",
+    "characters": 76,
+    "retrieved": "2026-10-17"
   }
 ]

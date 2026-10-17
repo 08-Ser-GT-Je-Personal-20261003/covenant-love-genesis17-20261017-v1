@@ -1,6 +1,6 @@
 """Forward local Surge credentials to GitHub Actions Secrets without printing them."""
 import pathlib,netrc,subprocess
-repo='08-Ser-GT-Je-Personal-20261003/covenant-love-genesis17-20261017-v1'
+repo='08-Ser-GT-Je-Personal-20261003/covenant-love-genesis17-20261017-v2-GTser'
 creds=netrc.netrc(str(pathlib.Path.home()/'.netrc')).authenticators('surge.surge.sh')
 if not creds:
  creds=netrc.netrc(str(pathlib.Path.home()/'.netrc')).authenticators('surge.sh')

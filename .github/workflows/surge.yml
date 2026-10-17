@@ -7,18 +7,29 @@ permissions:
   contents: read
 jobs:
   deploy:
+    if: github.repository == '08-Ser-GT-Je-Personal-20261003/covenant-love-genesis17-20261017-v2-GTser'
     runs-on: ubuntu-latest
     env:
       SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
       SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build and verify exact primary texts
+        run: |
+          python -m pip install -r requirements.txt
+          python scripts/build.py
+          python scripts/check.py
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Publish when credentials are configured
         if: env.SURGE_LOGIN != '' && env.SURGE_TOKEN != ''
-        run: npx --yes surge@0.44.6 ./dist covenant-love-genesis17-20261017-v1.surge.sh
+        run: |
+          npx --yes surge@0.44.6 ./dist covenant-love-genesis17-20261017-v2-gtser.surge.sh
+          npx --yes surge@0.44.6 ./dist covenant-love-genesis17-20261017-v1.surge.sh
       - name: Deployment setup note
         if: env.SURGE_LOGIN == '' || env.SURGE_TOKEN == ''
         run: echo "Surge Secrets are not configured; manual deployment remains available."
